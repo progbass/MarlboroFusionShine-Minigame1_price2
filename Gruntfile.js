@@ -1,4 +1,3 @@
-// Generated on 2014-03-28 using generator-phaser-official 0.0.8-rc-2
 'use strict';
 var config = require('./config.json');
 var _ = require('underscore');
@@ -11,8 +10,6 @@ _.mixin(_.str.exports());
 module.exports = function (grunt) {
   // load all grunt tasks
   require('matchdep').filterDev('grunt-*').forEach(grunt.loadNpmTasks);
- 
-
  
   grunt.initConfig({
 
